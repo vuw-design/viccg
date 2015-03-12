@@ -1,0 +1,359 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+* {
+  margin: 0px;
+  padding: 0px; }
+
+html, body {
+  height: 100%; }
+
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 300;
+  background-color: #eeeeee; }
+
+h1 {
+  border-bottom: 1px solid black; }
+
+h2 {
+  font-size: 20px; }
+
+.course-article {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  padding: 20px 0px;
+  display: inline; }
+  .course-article:last-child {
+    margin-right: 0; }
+  .course-article h1 {
+    margin-bottom: 10px; }
+  .course-article img {
+    padding: 0px 20px;
+    max-width: 500px; }
+
+.people-article {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%;
+  padding: 10px;
+  padding-top: 20px; }
+  .people-article:last-child {
+    margin-right: 0; }
+  .people-article h1 {
+    margin-bottom: 10px;
+    border-bottom: 1px solid black; }
+  .people-article img {
+    padding: 0px 0px;
+    width: 100%; }
+
+.home-article {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%;
+  padding: 10px; }
+  .home-article:last-child {
+    margin-right: 0; }
+  .home-article h1 {
+    margin-bottom: 10px;
+    border-bottom: 1px solid black; }
+  .home-article img {
+    padding: 0px 0px;
+    width: 100%; }
+  .home-article .news h3 {
+    padding: 10px 0px;
+    border-bottom: 1px dashed black; }
+
+.gallery {
+  width: 100%;
+  padding: 20px 0px; }
+  .gallery li {
+    width: 320px;
+    height: 200px;
+    display: inline-block;
+    overflow: hidden; }
+  .gallery ul li:nth-child(3n+3) {
+    margin-right: 0px; }
+  .gallery .gallery-article {
+    height: 250px; }
+    .gallery .gallery-article h1 {
+      margin-bottom: 10px;
+      border-bottom: 1px solid black; }
+    .gallery .gallery-article img {
+      width: 100%;
+      height: 100%; }
+    .gallery .gallery-article p {
+      visibility: hidden; }
+
+.lightbox {
+  position: fixed;
+  display: none;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: black; }
+  .lightbox .imgbox {
+    position: relative;
+    margin: 10px auto;
+    width: 740px; }
+    .lightbox .imgbox img {
+      position: relative;
+      width: 100%;
+      height: auto; }
+    .lightbox .imgbox .title {
+      font-size: 2em;
+      font-color: white;
+      border-bottom: 1px solid white; }
+    .lightbox .imgbox p {
+      color: white; }
+
+li {
+  list-style: none; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400; }
+
+a {
+  color: black;
+  text-decoration: none;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  transition: 0.5s; }
+
+a:hover {
+  color: #ff9100;
+  text-decoration: none; }
+
+p {
+  margin-bottom: 10px; }
+
+.wrap {
+  display: table;
+  width: 1040px;
+  padding: 0 30px;
+  margin: 0 auto;
+  z-index: 1;
+  zoom: 1;
+  background-color: white; }
+
+.slider-wrap {
+  display: table;
+  max-width: 1280px;
+  min-width: 660px;
+  margin: 0 auto; }
+
+.site-header {
+  width: 100%;
+  margin: 0 auto;
+  height: 125px;
+  background-color: #eeeeee;
+  z-index: 1; }
+  .site-header .wrap {
+    width: 1040px; }
+  .site-header .site-title, .site-header .site-title:hover, .site-header .site-title:visited {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%;
+    color: black;
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    line-height: 100px;
+    float: left;
+    position: relative; }
+    .site-header .site-title:last-child, .site-header .site-title:hover:last-child, .site-header .site-title:visited:last-child {
+      margin-right: 0; }
+  .site-header .site-name {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%;
+    color: black;
+    font-size: 25px;
+    text-align: right;
+    float: right;
+    position: relative;
+    padding-top: 42.5px; }
+    .site-header .site-name:last-child {
+      margin-right: 0; }
+  .site-header .navigation {
+    width: 100%;
+    height: 25px;
+    background-color: black; }
+    .site-header .navigation .wrap {
+      background-color: black; }
+    .site-header .navigation .site-nav {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%;
+      max-width: 1100px;
+      z-index: 1;
+      zoom: 1;
+      font-size: 16px; }
+      .site-header .navigation .site-nav:last-child {
+        margin-right: 0; }
+      .site-header .navigation .site-nav .page-link {
+        color: white;
+        padding: 0 10px;
+        float: left;
+        border-right: 1px solid white; }
+      .site-header .navigation .site-nav .page-link:first-child {
+        padding-left: 0px; }
+      .site-header .navigation .site-nav .page-link:last-child {
+        border-right: none; }
+      .site-header .navigation .site-nav a:hover {
+        color: #ff9100;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        transition: 0.5s; }
+
+.site-slider {
+  width: 100%;
+  height: 400px;
+  max-width: 1280px;
+  margin: 0 auto;
+  overflow: hidden;
+  background-color: #cccccc; }
+  .site-slider .slider-window {
+    width: 400%;
+    height: 720;
+    max-width: 5120px;
+    position: relative; }
+  .site-slider .slide {
+    width: 25%;
+    max-width: 1280px;
+    max-height: 500px;
+    float: left;
+    position: relative; }
+    .site-slider .slide img {
+      width: 100%;
+      height: auto; }
+    .site-slider .slide a {
+      color: #eeeeee;
+      text-decoration: none; }
+    .site-slider .slide a:hover {
+      color: #ff9100;
+      text-decoration: none; }
+    .site-slider .slide a:visited {
+      color: #333333;
+      text-decoration: none; }
+  .site-slider .slide-title-bar {
+    display: none;
+    position: absolute;
+    width: 100%;
+    top: 25%;
+    z-index: 1; }
+  .site-slider .slide-title {
+    position: relative;
+    width: 1100px;
+    margin: 0 auto;
+    padding: 0 30px;
+    font-size: 50px;
+    letter-spacing: -1px;
+    line-height: 1; }
+  .site-slider .slide-date {
+    position: relative;
+    width: 1100px;
+    margin: 0 auto;
+    padding: 10px 30px;
+    line-height: 1;
+    display: block;
+    font-size: 15px;
+    color: #eeeeee; }
+
+.page-content {
+  min-height: 65%;
+  padding: 20px 0;
+  padding-top: 0px;
+  background-color: #eeeeee; }
+  .page-content .wrap {
+    width: 1040px; }
+
+.site-footer {
+  width: 100%;
+  padding: 20px 0px;
+  background-color: white; }
+  .site-footer .wrap {
+    padding-top: 20px; }
+  .site-footer li {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%;
+    float: left;
+    text-align: left;
+    padding-left: 20px; }
+    .site-footer li:last-child {
+      margin-right: 0; }
+  .site-footer img {
+    height: 50px;
+    width: auto; }
+  .site-footer a {
+    color: black;
+    text-decoration: none; }
+  .site-footer a:hover {
+    color: #ff9100;
+    text-decoration: none; }
+  .site-footer li ul li {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    float: right;
+    padding-left: 0px; }
+    .site-footer li ul li:last-child {
+      margin-right: 0; }
+  .site-footer .footer-heading {
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: -0.5px;
+    margin-bottom: 15px;
+    color: #333333; }
+  .site-footer .school {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 12px;
+    letter-spacing: -0.5px;
+    margin-bottom: 15px;
+    color: #333333; }
+  .site-footer .post-content {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%; }
+    .site-footer .post-content:last-child {
+      margin-right: 0; }
+    .site-footer .post-content img {
+      width: 100%; }
+
+.post-box {
+  height: 200px; }
+  .post-box .img-window {
+    width: 100%;
+    height: 150px;
+    overflow: hidden; }
+  .post-box img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto; }
+
+.post {
+  position: relative;
+  width: 100%;
+  padding: 20px 0px; }
+  .post .post-content {
+    width: 100%; }
+  .post img {
+    width: 100%;
+    height: auto; }
