@@ -20,6 +20,7 @@ body
 	line-height: 1.5
 	font-weight: 300
 	background-color: $secondary-color
+	background-image: url("/assets/background.png")
 
 h1
 	border-bottom: 1px solid #000
@@ -28,6 +29,16 @@ h2
 	font-size: 20px
 
 .course-article
+	@include span-columns(12)
+	padding: 20px 0px
+	display: inline
+	h1
+		margin-bottom: 10px
+	img
+		width: 100%
+		max-width: 1000px
+
+.news-article
 	@include span-columns(12)
 	padding: 20px 0px
 	display: inline
@@ -144,7 +155,6 @@ p
 	width: 100%
 	margin: 0 auto
 	height: $header-size
-	background-color: $secondary-color
 	z-index: 1
 	.wrap
 		width: 1040px
@@ -249,7 +259,6 @@ p
 	min-height: 65%
 	padding: 20px 0
 	padding-top: 0px
-	background-color: $secondary-color
 	.wrap
 		width: 1040px
 

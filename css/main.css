@@ -15,7 +15,8 @@ body {
   font-size: 14px;
   line-height: 1.5;
   font-weight: 300;
-  background-color: #eeeeee; }
+  background-color: #eeeeee;
+  background-image: url("/assets/background.png"); }
 
 h1 {
   border-bottom: 1px solid black; }
@@ -35,6 +36,21 @@ h2 {
   .course-article h1 {
     margin-bottom: 10px; }
   .course-article img {
+    width: 100%;
+    max-width: 1000px; }
+
+.news-article {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  padding: 20px 0px;
+  display: inline; }
+  .news-article:last-child {
+    margin-right: 0; }
+  .news-article h1 {
+    margin-bottom: 10px; }
+  .news-article img {
     padding: 0px 20px;
     max-width: 500px; }
 
@@ -155,7 +171,6 @@ p {
   width: 100%;
   margin: 0 auto;
   height: 125px;
-  background-color: #eeeeee;
   z-index: 1; }
   .site-header .wrap {
     width: 1040px; }
@@ -275,8 +290,7 @@ p {
 .page-content {
   min-height: 65%;
   padding: 20px 0;
-  padding-top: 0px;
-  background-color: #eeeeee; }
+  padding-top: 0px; }
   .page-content .wrap {
     width: 1040px; }
 
