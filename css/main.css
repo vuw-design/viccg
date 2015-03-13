@@ -14,9 +14,7 @@ body {
   font-family: Helvetica, sans-serif;
   font-size: 14px;
   line-height: 1.5;
-  font-weight: 300;
-  background-color: #eeeeee;
-  background-image: url("/assets/background.png"); }
+  font-weight: 300; }
 
 h1 {
   border-bottom: 1px solid black; }
