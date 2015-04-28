@@ -1,0 +1,122 @@
+/* common */
+
+.topbox {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-shadow: 0 0 1px #eee;
+}
+
+.logo-list img {
+    height: 50px;
+    margin: 10px;
+}
+
+.hdi4d_logo img {
+    height: 150px;
+}
+
+.footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 40px;
+    border-top: 1px solid #eee;
+}
+
+.anchor {
+    padding-top: 50px;
+}
+
+#partners img {
+    height: 50px;
+    margin: 10px;
+}
+
+@media (min-width: 768px) {
+    .partner_box {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+/* main page */
+
+#main_page_jumbo {
+    background-image:
+        url('../images/hero_bright.jpg');
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 1000px) {
+    #main_page_jumbo {
+        background-size: auto 100%;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1500px) {
+    #main_page_jumbo {
+        background-size: 150% auto;
+    }
+}
+
+@media (min-width: 1500px) {
+    #main_page_jumbo {
+        background-size: 100% auto;
+    }
+}
+
+
+/* news page */
+
+.blog-title {
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.blog-post {
+    padding-top: 15px;
+    padding-bottom: 30px;
+    border-top: 1px solid #eee;
+}
+
+.blog-post h2 {
+    margin-bottom: 20px;
+}
+
+/* workshop feb 2015 */
+
+#workshop_1_jumbo {
+    background-image:
+        url('../images/group_photo_bright.jpg');
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.photos_header {
+    padding-top: 60px;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    background-color: #eee;
+}
+
+.photo img {
+    width: 100%;
+}
+
+.photo {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.photo .caption {
+    text-align: center;
+    margin-bottom: 2.5em;
+    margin-top: 0.66em;
+}
+
+#photos_footnote {
+    margin-top: 5em;
+    margin-bottom: 2em;
+}
