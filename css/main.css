@@ -166,7 +166,7 @@ p {
   margin: 0 auto; }
 
 .site-header {
-  width: 100%;
+  width: 1040px;
   margin: 0 auto;
   height: 125px;
   z-index: 1; }
@@ -232,7 +232,7 @@ p {
         transition: 0.5s; }
 
 .site-slider {
-  width: 100%;
+  width: 1040px;
   height: 400px;
   max-width: 1280px;
   margin: 0 auto;
