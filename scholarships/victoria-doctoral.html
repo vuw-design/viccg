@@ -1,113 +1,62 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Computer Graphics | VICTORIA DOCTORAL SCHOLARSHIP</title>
-    <meta name="viewport" content="width=device-width">
-    <meta name="description" content="Computer Graphics at Victoria University of Wellington">
-    <link rel="canonical" href="http://computergraphics.ac.nz/scholarships/victoria-doctoral.html">
-
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="../css/main.css">
-
+<head>
+  <base href=".." />
+  <title>Computer Graphics | VICTORIA DOCTORAL SCHOLARSHIP</title>
+  <link rel="canonical" href="http://computergraphics.ac.nz/scholarships/victoria-doctoral.html">
+  <meta name="description" content="Computer Graphics at Victoria University of Wellington">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width">
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <link rel="stylesheet" href="css/main.css">
 </head>
 
+<body style="background-image: url('assets/background.png')">
 
-    <body style="background-image: url('../assets/background.png')">
+<!--header loaded later using jQuery-->
+<header id="header" class="site-header"></header>
 
-    <header class="site-header">
-
-  <div class="wrap">
-    <ul>
-      <li><a class="site-title" href="http://computergraphics.ac.nz/">Computer Graphics</a></li>
-      <li><p class="site-name">Victoria University of Wellington</p></li>
-    </ul>
-  </div>
-  <div class="navigation">
-    <div class="wrap">
-    <nav class="site-nav">
-        <div class="trigger">
-          
-            <a class="page-link" href="../about/">About</a>
-          
-            <a class="page-link" href="../courses/">Courses</a>
-          
-            <a class="page-link" href="../gallery/">Gallery</a>
-          
-            <a class="page-link" href="../index.html"></a>
-          
-            <a class="page-link" href="../news/">News</a>
-          
-            <a class="page-link" href="../people/">People</a>
-          
-            <a class="page-link" href="../research/">Research</a>
-          
-            <a class="page-link" href="../scholarships/">Scholarships</a>
-          
-        </div>
-      </nav>
-    </div>
-  </div>
-
-</header>
-
-
-    <div class="page-content">
-      <div class="wrap">
-      <div class="post">
-
+<!--page content goes here-->
+<div class="page-content"><div class="wrap"><div class="post">
+  
   <header class="post-header">
     <h1>VICTORIA DOCTORAL SCHOLARSHIP</h1>
     <p class="meta"></p>
   </header>
-
   
-
   <article class="post-content">
-  <p>These Scholarships are intended to encourage and support doctoral study (PhD) at Victoria University of Wellington.</p>
-
-<p>TOTAL VALUE &amp; TENURE</p>
-
-<p>The scholarship will provide:</p>
-
-<p>— Scholarships will normally be tenable for 3 years. 
-— $23,500 stipend annually + tuition fees. Conditions apply see the regulations for details.</p>
-
-<p>ACCOUNTABILITY</p>
-
-<p>Scholarship recipients must sign a Postgraduate Scholarships Contract agreeing to abide by the attached regulations. Recipients shall be required to devote themselves full-time to their programme of research during the tenure of the scholarship and may not hold a position of emolument without the approval of the University Scholarships Committee. Approval may be given for scholarship recipients to undertake paid employment (usually tutoring) for up to a further 400 hours in addition to their contribution in any one calendar year. All requests to undertake part-time employment must be supported in writing by the supervisor.</p>
-
-<p>FIND OUT MORE</p>
-
-<p>Please visit VUW Scholarships &amp; Prizes for further information about the Victoria Doctoral Scholarships</p>
-
+    <p>These Scholarships are intended to encourage and support doctoral study (PhD) at Victoria University of Wellington.</p>
+    
+    <h3>TOTAL VALUE &amp; TENURE</h3>
+    
+    <p>The scholarship will provide:
+      <ul>
+        <li>— Scholarships will normally be tenable for 3 years.</li>
+        <li>— $23,500 stipend annually + tuition fees. Conditions apply see the regulations for details.</li>
+      </ul>
+    </p>
+    
+    <h3>ACCOUNTABILITY</h3>
+    
+    <p>Scholarship recipients must sign a Postgraduate Scholarships Contract agreeing to abide by the attached regulations. Recipients shall be required to devote themselves full-time to their programme of research during the tenure of the scholarship and may not hold a position of emolument without the approval of the University Scholarships Committee. Approval may be given for scholarship recipients to undertake paid employment (usually tutoring) for up to a further 400 hours in addition to their contribution in any one calendar year. All requests to undertake part-time employment must be supported in writing by the supervisor.</p>
+    
+    <h3>FIND OUT MORE</h3>
+    
+    <p>Please visit VUW Scholarships &amp; Prizes for further information about the Victoria Doctoral Scholarships</p>
+    
   </article>
+  
+</div></div></div>
 
-</div>
-      </div>
-    </div>
+<!--loaded later using jQuery-->
+<footer id="footer" class="site-footer"></footer>
 
-    <footer class="site-footer">
+</body>
 
-  <div class="wrap">
-    <ul>
-      <li><a href="http://www.victoria.ac.nz"><img src="../assets/Vuw-logo.png"></img></a></li>
-      <li><h2 class="footer-heading">Victoria University of Wellington</h2></li>
-      <li>
-        <ul>
-          <li><a class="post-link" href="http://www.victoria.ac.nz/ecs"><h2 class="school">School of Engineering</h2></a></li>
-          <li><a class="post-link" href="http://www.victoria.ac.nz/design"><h2 class="school">School of Architecture + Design</h2></a></li>
-        <ul>
-      </li>
-    </ul>
-  </div>
+<!--load dynamic elements last, to improve page display speed-->
+<script type="text/javascript">$("#header").load("header.html");</script>
+<script type="text/javascript">$("#footer").load("footer.html");</script>
 
-</footer>
-
-
-    </body>
 </html>
