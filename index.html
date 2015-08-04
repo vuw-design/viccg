@@ -17,47 +17,12 @@
 </head>
 
 
-    <body style="background-image: url('assets/background.png')">
+<body style="background-image: url('assets/background.png')">
 
-    <header class="site-header">
+<!--header loaded later using jQuery-->
+<header id="topbar" class="site-header"></header>
 
-  <div class="wrap">
-    <ul>
-      <li><a class="site-title" href="http://computergraphics.ac.nz/">Computer Graphics</a></li>
-      <li><p class="site-name">Victoria University of Wellington</p></li>
-    </ul>
-  </div>
-  <div class="navigation">
-    <div class="wrap">
-    <nav class="site-nav">
-        <div class="trigger">
-          
-            <a class="page-link" href="about/">About</a>
-          
-            <a class="page-link" href="courses/">Courses</a>
-          
-            <a class="page-link" href="gallery/">Gallery</a>
-          
-            <a class="page-link" href="index.html"></a>
-          
-            <a class="page-link" href="news/">News</a>
-          
-            <a class="page-link" href="people/">People</a>
-          
-            <a class="page-link" href="research/">Research</a>
-          
-            <a class="page-link" href="scholarships/">Scholarships</a>
-          
-            <a class="page-link" href="hdi4d/">HDI4D</a>
-          
-        </div>
-      </nav>
-    </div>
-  </div>
-
-</header>
-
-    <div class="site-slider">
+<div class="site-slider">
   <div class="slider-wrap">
     <div class="slider-window">
 
@@ -326,5 +291,9 @@
 </footer>
 
 
-    </body>
+</body>
+
+<!--load elements last, to improve page display speed-->
+<script type="text/javascript">$("#topbar").load("header.html");</script>
+
 </html>
