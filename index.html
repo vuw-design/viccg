@@ -20,7 +20,7 @@
 <body style="background-image: url('assets/background.png')">
 
 <!--header loaded later using jQuery-->
-<header id="topbar" class="site-header"></header>
+<header id="header" class="site-header"></header>
 
 <div class="site-slider">
   <div class="slider-wrap">
@@ -273,27 +273,13 @@
       </div>
     </div>
 
-    <footer class="site-footer">
-
-  <div class="wrap">
-    <ul>
-      <li><a href="http://www.victoria.ac.nz"><img src="assets/Vuw-logo.png"></img></a></li>
-      <li><h2 class="footer-heading">Victoria University of Wellington</h2></li>
-      <li>
-        <ul>
-          <li><a class="post-link" href="http://www.victoria.ac.nz/ecs"><h2 class="school">School of Engineering</h2></a></li>
-          <li><a class="post-link" href="http://www.victoria.ac.nz/design"><h2 class="school">School of Architecture + Design</h2></a></li>
-        <ul>
-      </li>
-    </ul>
-  </div>
-
-</footer>
-
+<!--loaded later using jQuery-->
+<footer id="footer" class="site-footer"></footer>
 
 </body>
 
-<!--load elements last, to improve page display speed-->
-<script type="text/javascript">$("#topbar").load("header.html");</script>
+<!--load dynamic elements last, to improve page display speed-->
+<script type="text/javascript">$("#header").load("header.html");</script>
+<script type="text/javascript">$("#footer").load("footer.html");</script>
 
 </html>
