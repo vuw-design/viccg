@@ -154,6 +154,17 @@ a:hover {
 p {
   margin-bottom: 10px; }
 
+.people-section-title {
+  display: table;
+  width: 1040px;
+  padding: 0;
+  z-index: 1;
+  background-color: #444;
+  color: white;
+  text-align: center;
+  margin: 0 auto 10px auto;
+  border: none; }
+
 .wrap {
   display: table;
   width: 1040px;
