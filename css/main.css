@@ -72,6 +72,23 @@ h3 {
     padding: 0px 0px;
     width: 100%; }
 
+.research-article {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  padding: 20px 0px; }
+  .research-article:last-child {
+    margin-right: 0; }
+  .research-article h2 {
+    margin: 10px 0; }
+  .research-article ul {
+    margin-bottom: 30px; }
+  .research-article li {
+    margin: 10px 20px; }
+    .research-article li a {
+      border-bottom: 1px dashed black; }
+
 .home-article {
   float: left;
   display: block;
@@ -155,6 +172,9 @@ p {
   margin-bottom: 10px; }
 
 .people-section {
+  margin-bottom: 20px; }
+
+.research-section {
   margin-bottom: 20px; }
 
 .section-title {
