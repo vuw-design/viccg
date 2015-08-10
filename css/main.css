@@ -154,11 +154,12 @@ a:hover {
 p {
   margin-bottom: 10px; }
 
+.people-section {
+  margin-bottom: 20px; }
+
 .section-title {
-  display: table;
-  width: 1040px;
+  width: 100%;
   padding: 0;
-  z-index: 1;
   background-color: #444;
   color: white;
   text-align: center;
@@ -300,14 +301,17 @@ p {
 
 .page-content {
   min-height: 65%;
-  padding: 20px 0;
-  padding-top: 0px; }
-  .page-content .wrap {
-    width: 1040px; }
+  color: black;
+  background-color: white;
+  padding-bottom: 20px;
+  width: 1040px;
+  margin: 0 auto; }
 
 .site-footer {
-  width: 100%;
-  padding: 20px 0px;
+  width: 1040px;
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 20px;
   background-color: white; }
   .site-footer .wrap {
     padding-top: 20px; }
