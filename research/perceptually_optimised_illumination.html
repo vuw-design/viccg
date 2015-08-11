@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <base href=".." />
+  <title>Computer Graphics | Research</title>
+  <link rel="canonical" href="http://computergraphics.ac.nz/research/">
+  <meta name="description" content="Computer Graphics at Victoria University of Wellington">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width">
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body style="background-image: url('assets/background.png')">
+
+<!--header loaded later using jQuery-->
+<header id="header" class="site-header"></header>
+
+<!--page content goes here-->
+<div class="page-content"><div class="wrap"><div class="research-article">
+  
+  <h1>Perceptually Optimised Illumination for Seamless Composites</h1>
+  
+  <table class="even-table">
+    <tr>
+      <td><img src="assets/research/perceptual/0_0.jpg" /></td>
+      <td><img src="assets/research/perceptual/1_0.jpg" /></td>
+      <td><img src="assets/research/perceptual/1_3.jpg" /></td>
+      <td><img src="assets/research/perceptual/1_4.jpg" /></td>
+    </tr>
+    <tr><td colspan="4">
+      <i>Composition with a photograph: the synthetic objects (blue ball, green block, bunny, and teapot) are illuminated by a radiance map
+(RM). From left: photograph, rendering with 5024x2512 HDR RM, and two examples of rendering with 320x160 LDR RM having expanded
+dynamic range using inverse tone mapping. The 2nd and 3rd images are visually equivalent, despite the large difference in RM resolution and
+dynamic range.</i>
+    </td></tr>
+  </table>
+  
+  <h2>Abstract</h2>
+  <p>
+    Realistic illumination in composition is important for a seamless mixture between the virtual and real world objects in visual effects and mixed reality. The seamlessness is the measure of how perceivably apparent the synthetic object in the final composition is, and how indistinguishable it is from the photographed scene. Given that the ultimate receiver of image information is the human eye, the metric is determined by the Human Visual System (HVS). We conducted a series of psychophysical studies to observe and capture the thresholds of the HVS's ability to perceive illumination inconsistencies between the rendered subject and the photographed scene. Based on our observations, we find perceptually optimised thresholds for reducing resources across resolution and dynamic range of the radiance map (RM) for image based lighting (IBL). We evaluated our thresholds to illuminate virtual objects for seamless composition with photographed scenes.
+  </p>
+
+  <h2>Paper</h2>
+  <p>
+    Andrew Chalmers, Jong Jin Choi and Taehyun Rhee<br>
+    Perceptually Optimised Illumination for Seamless Composites<br> 
+    Pacific Graphics 2014<br>
+    <a href="assets/research/PG14_HVS.pdf">Author Preprint</a>
+  </p>
+  
+</div></div></div>
+
+<!--loaded later using jQuery-->
+<footer id="footer" class="site-footer"></footer>
+
+</body>
+
+<!--load dynamic elements last, to improve page display speed-->
+<script type="text/javascript">$("#header").load("header.html");</script>
+<script type="text/javascript">$("#footer").load("footer.html");</script>
+
+</html>
