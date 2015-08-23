@@ -49,16 +49,14 @@ h3 {
     margin: 10px auto;
     width: 100%; }
   .course-article .even-table td {
-    padding: 5px 10px;
-    padding-left: 70px;
+    padding: 0 20px 0 70px;
     text-align: left;
     vertical-align: top;
     color: #333;
     border-top: 1px solid #B9D2D6;
     border-right: 1px solid #B9D2D6; }
   .course-article .even-table th {
-    padding: 10px 0;
-    padding-left: 70px;
+    padding: 10px 0 10px 70px;
     text-align: left;
     font-size: 18px;
     border-bottom: 1px solid #B9D2D6;
@@ -72,21 +70,20 @@ h3 {
     padding-bottom: 0;
     margin-bottom: 0;
     color: #115737; }
-  .course-article .even-table ul {
-    padding-top: 0;
-    margin-top: 0;
+  .course-article .even-table td li {
+    margin: 16px 0; }
+  .course-article .even-table .course-title {
+    color: #333;
     padding-left: 1em; }
-  .course-article .even-table li {
-    color: #333; }
-  .course-article .even-table li:before {
+  .course-article .even-table .course-title:before {
     display: inline-block;
     content: "–";
     width: 1em;
     margin-left: -1em; }
-  .course-article .even-table td > div {
-    padding: 8px 0; }
-  .course-article .even-table td > a > div {
-    padding: 8px 0; }
+  .course-article .even-table .choice {
+    margin-left: -1em;
+    padding-left: +1em;
+    border-left: 1px solid #659486; }
 
 .news-article {
   float: left;
