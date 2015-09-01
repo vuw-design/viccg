@@ -82,8 +82,15 @@ h3 {
     margin-left: -1em; }
   .course-article .even-table .choice {
     margin-left: -1em;
+    margin-top: 16px;
+    margin-bottom: 16px;
     padding-left: +1em;
     border-left: 1px solid #659486; }
+  .course-article .even-table h1 {
+    text-align: center;
+    margin: 10px;
+    color: #115737;
+    border-bottom: 0; }
 
 .news-article {
   float: left;
