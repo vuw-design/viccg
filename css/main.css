@@ -122,6 +122,9 @@ h3 {
   .people-article img {
     padding: 0px 0px;
     width: 100%; }
+  .people-article img.student {
+    padding: 0px 0px;
+    width: 70%; }
 
 .research-article {
   width: 100%;
