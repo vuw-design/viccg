@@ -109,24 +109,29 @@ h3 {
     padding: 0px 20px;
     max-width: 500px; }
 
+.people-section li {
+  display: inline-block;
+  vertical-align: top; }
+  .people-section .threecol li {
+    margin-right: 2.5%;
+    width: 31%; }
+  .people-section .threecol li:nth-child(3n) {
+    margin-right: 0; }
+  .people-section .fourcol li {
+    margin-right: 1.5%;
+    width: 23.5%; }
+  .people-section .fourcol li:nth-child(4n) {
+    margin-right: 0; }
+
 .people-article {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 31.76157%;
   padding: 10px;
   padding-top: 20px; }
-  .people-article:last-child {
-    margin-right: 0; }
   .people-article h1 {
     margin-bottom: 10px;
     border-bottom: 1px solid black; }
   .people-article img {
     padding: 0px 0px;
     width: 100%; }
-  .people-article img.student {
-    padding: 0px 0px;
-    width: 70%; }
 
 .research-article {
   width: 100%;
