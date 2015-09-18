@@ -168,6 +168,13 @@ h3 {
       width: 66%;
       padding: 10px 0; }
 
+.resource-article {
+  width: 100%;
+  padding: 20px 0px; }
+  .resource-article li {
+    margin: 10px 20px; }
+
+
 .home-article {
   float: left;
   display: block;
