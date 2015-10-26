@@ -39,6 +39,11 @@
     }
 }
 
+.table-centered td, .table-centered th {
+    text-align: center;
+    vertical-align: middle !important;
+}
+
 /* main page */
 
 #main_page_jumbo {
