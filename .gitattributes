@@ -1,0 +1,31 @@
+# line-ending behaviour for this repo
+
+# by default convert CRLF to LF on commit for files that look like text
+* text=auto
+
+# autodetection is correct almost 100% of the time,
+# but the rest of these are explicitly specified for clarity
+
+# these files should be LF in the repo, native when checked out
+*.html text diff=html
+*.htm text diff=html
+*.css text
+*.js text
+*.php text diff=php
+*.obj text
+*.ply text
+*.mtl text
+
+# these files should be LF everywhere
+#(usage: *.lf eol=lf)
+
+# these files should be CRLF everywhere
+#(usage: *.crlf eol=crlf)
+
+# these files are binary
+*.png binary
+*.jpg binary
+*.pdf binary
+*.hdr binary
+*.exr binary
+*.tif binary

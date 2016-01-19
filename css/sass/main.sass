@@ -1,0 +1,325 @@
+@import "bourbon/bourbon"
+@import "neat/neat"
+
+$font-stack: Helvetica, sans-serif
+$primary-color: #333
+$secondary-color: #eee
+$hover-color: #ff9100
+$header-size: 125px
+
+*
+	margin: 0px
+	padding: 0px
+
+html, body
+	height: 100%
+
+body
+	font-family: $font-stack
+	font-size: 14px
+	line-height: 1.5
+	font-weight: 300
+
+h1
+	border-bottom: 1px solid #000
+
+h2
+	font-size: 20px
+
+.course-article
+	@include span-columns(12)
+	padding: 20px 0px
+	display: inline
+	h1
+		margin-bottom: 10px
+	img
+		width: 100%
+		max-width: 1000px
+
+.news-article
+	@include span-columns(12)
+	padding: 20px 0px
+	display: inline
+	h1
+		margin-bottom: 10px
+	img
+		padding: 0px 20px
+		max-width: 500px
+
+.people-article
+	@include span-columns(4 of 12)
+	padding: 10px
+	padding-top: 20px
+	h1
+		margin-bottom: 10px
+		border-bottom: 1px solid #000
+	img
+		padding: 0px 0px
+		width: 100%
+
+.home-article
+	@include span-columns(4)
+	padding: 10px
+	h1
+		margin-bottom: 10px
+		border-bottom: 1px solid #000
+	img
+		padding: 0px 0px
+		width: 100%
+	.news 
+		h3
+			padding: 10px 0px
+			border-bottom: 1px dashed #000
+
+.gallery
+	width: 100%
+	padding: 20px 0px
+	li
+		width: 320px
+		height: 200px
+		display: inline-block
+		overflow: hidden
+	ul li:nth-child(3n+3)
+		margin-right: 0px
+	.gallery-article
+		height: 250px
+		h1
+			margin-bottom: 10px
+			border-bottom: 1px solid #000
+		img
+			width: 100%
+			height: 100%
+		p
+			visibility: hidden
+
+.lightbox
+	position: fixed
+	display: none
+	top: 0px
+	left: 0px
+	width: 100%
+	height: 100%
+	background-color: #000000
+	.imgbox
+		position: relative
+		margin: 10px auto
+		width: 740px
+		img
+			position: relative
+			width: 100%
+			height: auto
+		.title
+			font-size: 2em
+			font-color: #FFF
+			border-bottom: 1px solid #FFF
+		p
+			color: #FFF
+
+li
+	list-style: none
+
+h1, h2, h3, h4, h5, h6
+	font-weight: 400
+
+a
+	color: #000000
+	text-decoration: none
+	@include transition( .5s)
+
+a:hover
+	color: $hover-color
+	text-decoration: none
+
+p
+	margin-bottom: 10px
+
+.wrap
+	display: table
+	width: 1040px
+	padding: 0 30px
+	margin: 0 auto
+	z-index: 1
+	zoom: 1
+	background-color: #fff
+
+.slider-wrap
+	display: table
+	max-width: 1280px
+	min-width: 660px
+	margin: 0 auto
+	// margin-top: $header-size
+
+.site-header
+	width: 100%
+	margin: 0 auto
+	height: $header-size
+	z-index: 1
+	.wrap
+		width: 1040px
+	.site-title, .site-title:hover, .site-title:visited
+		@include span-columns(6)
+		color: #000000
+		font-size: 50px
+		font-weight: 600
+		letter-spacing: -1px
+		line-height: 100px
+		float: left
+		position: relative
+	.site-name
+		@include span-columns(6)
+		color: #000000
+		font-size: 25px
+		text-align: right
+		float: right
+		position: relative
+		padding-top: 42.5px
+	.navigation
+		width: 100%
+		height: 25px
+		background-color: #000
+		.wrap
+			background-color: #000
+		.site-nav
+			@include span-columns(12)
+			max-width: 1100px
+			z-index: 1
+			zoom: 1
+			font-size: 16px
+			.page-link
+				color: #fff
+				padding: 0 10px
+				float: left
+				border-right: 1px solid #fff
+			.page-link:first-child
+				padding-left: 0px
+			.page-link:last-child
+				border-right: none
+			a:hover
+				color: $hover-color
+				@include transition( .5s)
+
+.site-slider
+	width: 100%
+	height: 400px
+	max-width: 1280px
+	margin: 0 auto
+	// padding-top: $header-size
+	overflow: hidden
+	background-color: #ccc
+	.slider-window
+		width: 400%
+		height: 720
+		max-width: 5120px
+		position: relative
+	.slide
+		width: 25%
+		max-width: 1280px
+		max-height: 500px
+		float: left
+		position: relative
+		img
+			width: 100%
+			height: auto
+		a
+			color: $secondary-color
+			text-decoration: none
+		a:hover
+			color: $hover-color
+			text-decoration: none
+		a:visited
+			color: $primary-color
+			text-decoration: none
+	.slide-title-bar
+		display: none
+		position: absolute
+		width: 100%
+		top: 25%
+		z-index: 1
+	.slide-title
+		position: relative
+		width: 1100px
+		margin: 0 auto
+		padding: 0 30px
+		font-size: 50px
+		letter-spacing: -1px
+		line-height: 1
+	.slide-date
+		position: relative
+		width: 1100px
+		margin: 0 auto
+		padding: 10px 30px
+		line-height: 1
+		display: block
+		font-size: 15px
+		color: $secondary-color
+
+.page-content
+	min-height: 65%
+	padding: 20px 0
+	padding-top: 0px
+	.wrap
+		width: 1040px
+
+.site-footer
+	width: 100%
+	padding: 20px 0px
+	background-color: #fff
+	.wrap
+		padding-top: 20px
+	li
+		@include span-columns(4)
+		float: left
+		text-align: left
+		padding-left: 20px
+	img
+		height: 50px
+		width: auto
+	a
+		color: #000
+		text-decoration: none
+	a:hover
+		color: $hover-color
+		text-decoration: none
+	li ul li
+		@include span-columns(12)
+		float: right
+		padding-left: 0px
+	.footer-heading
+		font-size: 12px
+		font-weight: 300
+		letter-spacing: -.5px
+		margin-bottom: 15px
+		color: $primary-color
+	.school
+		font-size: 12px
+		font-weight: 300
+		line-height: 12px
+		letter-spacing: -.5px
+		margin-bottom: 15px
+		color: $primary-color
+	.post-content
+		@include span-columns(12)
+		img
+			width: 100%
+
+.post-box
+	height: 200px
+	.img-window
+		width: 100%
+		height: 150px
+		overflow: hidden
+	img
+		display: block
+		max-width: 100%
+		margin: 0 auto
+
+.post
+	position: relative
+	width: 100%
+	padding: 20px 0px
+	.post-content
+		width: 100%
+	img
+		width: 100%
+		height: auto
+

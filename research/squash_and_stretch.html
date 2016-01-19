@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <base href=".." />
+  <title>A Pose Space for Squash and Stretch Deformation</title>
+  <link rel="canonical" href="http://computergraphics.ac.nz/research/squash_and_stretch.html">
+  <meta name="description" content="A Pose Space for Squash and Stretch Deformation">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width">
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body style="background-image: url('assets/background.png')">
+
+<!--header loaded later using jQuery-->
+<header id="header" class="site-header"></header>
+
+<!--page content goes here-->
+<div class="page-content"><div class="wrap"><div class="research-article">
+
+  <h1>A Pose Space for Squash and Stretch Deformation</h1>
+  
+  <table class="even-table">
+    <tr><td>
+      <img src="assets/research/squashnstretch/1_cropped.png" />
+    </td><td>
+      <img src="assets/research/squashnstretch/2_cropped.png" />
+    </td></tr>
+  </table>
+  
+  <h2>Abstract</h2>
+  <p>
+    'Squash & Stretch' is a fundamental technique in traditional animation, in which the shape of a character or object is intentionally distorted in order to accentuate its movement. Unfortunately the fluid deformation required by the squash & stretch technique is difficult to achieve using current tools, because the development of computer graphics algorithms has been largely driven by the goal of producing photo-realistic images and movement. We contribute a novel technique in which the squash & stretch effect can be introduced and controlled simply by specifying examples of the desired effect at any point along an animation timeline. The examples are associated with the pose of the model, where 'pose' is defined as selected parameters of the underlying animation such as position, velocity, and acceleration. Unlike keyframe animation, which would require a squash or stretch to be specified every time that it occurs, our approach automatically produces the desired effect whenever the pose of the model approaches one of the trained poses. And unlike rigging-based approaches, which require the artist to specify various weight and expressions, our approach allows the desired deformations to be produced simply by sculpting them.
+  </p>
+
+  <h2>Paper</h2>
+  <p>
+    Richard Roberts and Byron Mallett<br>
+    A Pose Space for Squash and Stretch Deformation<br>
+    2013 28th International Conference of Image and Vision Computing New Zealand<br>
+    <a href="assets/research/A_Pose_Space_for_Squash_and_Stretch_Deformation.pdf">Author Preprint</a><br>
+    <a href="https://vimeo.com/79740396">Supplementary Video</a>
+  </p>
+  
+  <h2>Example</h2>
+  
+  <center><iframe src="http://player.vimeo.com/video/79737998?title=0&portrait=0" width="700" height="394" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></center>
+  
+</div></div></div>
+
+<!--loaded later using jQuery-->
+<footer id="footer" class="site-footer"></footer>
+
+</body>
+
+<!--load dynamic elements last, to improve page display speed-->
+<script type="text/javascript">$("#header").load("header.html");</script>
+<script type="text/javascript">$("#footer").load("footer.html");</script>
+
+</html>

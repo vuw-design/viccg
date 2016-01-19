@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <base href=".." />
+  <title>Sky Browser: Search for HDR Sky Maps</title>
+  <link rel="canonical" href="http://computergraphics.ac.nz/research/skybrowser.html">
+  <meta name="description" content="Sky Browser: Search for HDR Sky Maps">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width">
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body style="background-image: url('assets/background.png')">
+
+<!--header loaded later using jQuery-->
+<header id="header" class="site-header"></header>
+
+<!--page content goes here-->
+<div class="page-content"><div class="wrap"><div class="research-article">
+  
+  <h1>Sky Browser: Search for HDR Sky Maps</h1>
+  
+  <table class="even-table">
+    <tr><td colspan="3">
+      <img class="big" src="assets/research/skybrowser/AestheicAll2_resize3.jpg" />
+    </td></tr>
+    <tr><td>
+      <img class="small" src="assets/research/skybrowser/AndrewSky_1b.jpg" />
+    </td><td>
+      <img class="small" src="assets/research/skybrowser/AndrewSky_2b.jpg" />
+    </td><td>
+      <img class="small" src="assets/research/skybrowser/AndrewSky_3b.jpg" />
+    </td></tr>
+  </table>
+  
+  <h2>Abstract</h2>
+  <p>
+    In a visual effects studio for movie production, sky maps play an important role for acting as a sky backdrop to a scene. The backdrop to a scene is often represented using a high-resolution sky map. This motivates the need for a large collection of sky maps to match various moods and lighting conditions. A comprehensive collection of images is not useful however, without a method of searching for desired images within that database. In this paper we define a feature space that supports an interactive search function for HDR sky maps, allowing users to find ideal images based on its appearance. The set of features are automatically extracted from the sky maps in an offline pre-processing step, and are queried in real time for progressive browsing. The system uses unsupervised learning techniques, discarding the need for labelling a large set of existing sky maps.
+  </p>
+  
+  <h2>Paper</h2>
+  <p>
+    Andrew Chalmers, John Lewis, Peter Hillman, Charlie Tait and Taehyun Rhee<br>
+    "Sky Browser: Search for HDR Sky Maps"<br>
+    Pacific Graphics 2014<br>
+    <a href="assets/research/SkyBrowser.pdf">Author Preprint</a>
+  </p>
+  
+</div></div></div>
+
+<!--loaded later using jQuery-->
+<footer id="footer" class="site-footer"></footer>
+
+</body>
+
+<!--load dynamic elements last, to improve page display speed-->
+<script type="text/javascript">$("#header").load("header.html");</script>
+<script type="text/javascript">$("#footer").load("footer.html");</script>
+
+</html>

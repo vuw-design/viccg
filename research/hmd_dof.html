@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <base href=".." />
+  <title>Reducing Visual Discomfort with HMDs Using Dynamic Depth of Field</title>
+  <link rel="canonical" href="http://computergraphics.ac.nz/research/hmd_dof.html">
+  <meta name="description" content="Reducing Visual Discomfort with HMDs Using Dynamic Depth of Field">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width">
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body style="background-image: url('assets/background.png')">
+
+<!--header loaded later using jQuery-->
+<header id="header" class="site-header"></header>
+
+<!--page content goes here-->
+<div class="page-content"><div class="wrap"><div class="research-article">
+  
+  <h1>
+    Reducing Visual Discomfort with HMDs<br>
+    Using Dynamic Depth of Field
+  </h1>
+  
+  <table class="even-table">
+    <tr><td>
+      <img src="assets/research/hmddof/temple-dof.png" />
+    </td><td>
+      <img src="assets/research/hmddof/temple-no-dof.png" />
+    </td></tr>
+    <tr><td>
+      <img src="assets/research/hmddof/mountains-dof.png" />
+    </td><td>
+      <img src="assets/research/hmddof/mountains-no-dof.png" />
+    </td></tr>
+    <tr><td colspan="2">
+      <i>
+        Sample screenshots of the test scenes.
+        The temple (top) and mountainous landscape (bottom) were displayed
+        with DoF enabled (left) and disabled (right).
+      </i>
+    </td></tr>
+  </table>
+  
+  <h2>Abstract</h2>
+  <p>
+    Although head-mounted displays (HMDs) are ideal devices for personal viewing of immersive stereoscopic content, exposure to VR applications on them results in significant discomfort for the majority of people, with symptoms including eye fatigue, headaches, nausea, and sweating. A conflict between accommodation and vergence depth cues on stereoscopic displays is a significant cause of visual discomfort. This article describes the results of an evaluation used to judge the effectiveness of dynamic depth-of-field (DoF) blur in an effort to reduce discomfort caused by exposure to stereoscopic content on HMDs. Using a commercial game engine implementation, study participants report a reduction of visual discomfort on a simulator sickness questionnaire when DoF blurring is enabled. The study participants reported a decrease in symptom severity caused by HMD exposure, indicating that dynamic DoF can effectively reduce visual discomfort.
+  </p>
+  
+  <h2>Paper</h2>
+  <p>
+    Kieran Carnegie, Taehyun Rhee<br>
+    "Reducing Visual Discomfort with HMDs Using Dynamic Depth of Field"<br>
+    IEEE Computer Graphics and Applications, 2015<br>
+    <a href="assets/research/CGA2015.pdf">Author Preprint</a>
+  </p>
+  
+  <h2>Results</h2>
+  <img src="assets/research/hmddof/results.png" />
+  
+</div></div></div>
+
+<!--loaded later using jQuery-->
+<footer id="footer" class="site-footer"></footer>
+
+</body>
+
+<!--load dynamic elements last, to improve page display speed-->
+<script type="text/javascript">$("#header").load("header.html");</script>
+<script type="text/javascript">$("#footer").load("footer.html");</script>
+
+</html>
