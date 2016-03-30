@@ -286,7 +286,7 @@ p {
 .site-header {
   width: 1040px;
   margin: 0 auto;
-  height: 150px;
+  height: 125px;
   z-index: 1; }
   .site-header .wrap {
     width: 1040px; }
@@ -314,7 +314,7 @@ p {
     text-align: right;
     float: right;
     position: relative;
-    padding-top: 15px; }
+    padding-top: 42.5px; }
     .site-header .site-name:last-child {
       margin-right: 0; }
   .site-header .navigation {

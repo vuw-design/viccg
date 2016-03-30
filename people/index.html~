@@ -246,7 +246,6 @@ design and art, especially the analysis of abstract art and the design of tools 
   <div class="wrap people-section">
     <h1><big>MSc</big></h1>
     <ul class="fourcol">
-<!--
       <li>
         <a class="post-link" href="http://ecs.vuw.ac.nz/Main/GradEvgenyPatrikeev">
           <div class="people-article">
@@ -256,7 +255,17 @@ design and art, especially the analysis of abstract art and the design of tools 
           </div>
         </a>
       </li>
--->      
+      
+      <li>
+        <a class="post-link" href="http://ecs.vuw.ac.nz/Main/GradChristopherDean">
+          <div class="people-article">
+            <img src="assets/people/chris_dean_2.jpg"/>
+            <h2>Christopher Dean</h2>
+            <p>Victoria Masters by Thesis Scholarship</p>
+          </div>
+        </a>
+      </li>
+      
       <li>
         <a class="post-link" href="http://ecs.vuw.ac.nz/Main/GradThomasIorns">
           <div class="people-article">
@@ -330,7 +339,6 @@ design and art, especially the analysis of abstract art and the design of tools 
 
 <!-- Visitors Section -->
 
-<!--
 <div class="page-section">
   
   <div class="section-title" id="visitors">
@@ -350,25 +358,29 @@ design and art, especially the analysis of abstract art and the design of tools 
       </li>
       
       <li>
-             <div class="people-article">
+        <!--<a class="post-link" href="">-->
+          <div class="people-article">
             <img src="assets/people/agata_migalska_2.jpg"/>
             <h2>Agata Migalska</h2>
             <p>PhD Student, Wroclaw University of Technology, Poland</p>
           </div>
-         </li>
+        <!--</a>-->
+      </li>
       
       <li>
-             <div class="people-article">
+        <!--<a class="post-link" href="">-->
+          <div class="people-article">
             <img src="assets/people/nophoto.png"/>
             <h2>Jinwoo Lee</h2>
             <p>PhD Student, Kookmin University, South Korea</p>
           </div>
-         </li>
+        <!--</a>-->
+      </li>
       
     </ul>
   </div>
 </div>
--->
+
 
 <!-- Alumni Section -->
 
@@ -429,17 +441,6 @@ design and art, especially the analysis of abstract art and the design of tools 
           </div>
         <!--</a>-->
       </li>
-
-      <li>
-        <a class="post-link" href="http://ecs.vuw.ac.nz/Main/GradChristopherDean">
-          <div class="people-article">
-            <img src="assets/people/chris_dean_2.jpg"/>
-            <h2>Christopher Dean</h2>
-            <p>MSc in Computer Graphics</p>
-          </div>
-        </a>
-      </li>
-      
     </ul>
   </div>
 </div>
