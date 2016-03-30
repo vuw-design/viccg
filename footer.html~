@@ -7,13 +7,13 @@
         <img src="assets/Vuw-logo.png"></img>
       </a></li>
     <li class="footer-column">
-
+      <h2 class="footer-heading">Victoria University of Wellington</h2>
     </li>
     <li class="footer-column">
       <ul>
         <li class="footer-row">
           <a class="post-link" href="http://www.victoria.ac.nz/ecs">
-            <h2 class="school">School of Engineering + Computer Science</h2>
+            <h2 class="school">School of Engineering</h2>
           </a>
         </li>
         <li class="footer-row">
