@@ -1,0 +1,76 @@
+---
+layout: default
+---
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">HDI<sup>2</sup>4D</a>
+    </div>
+    <div id="navbar" class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#top">Workshop {{page.hdi4d-workshop-month}} {{page.hdi4d-workshop-year}}</a></li>
+        <li><a href="#venue">Venue &amp; Maps</a></li>
+        <li><a href="#programme">Programme</a></li>
+        <li><a href="#registration">Registration</a></li>
+        <li><a href="#photos">Photos</a></li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
+</nav>
+
+<div id="top"></div>
+
+<div class="jumbotron" id="workshop3_jumbo">
+  <div class="container topbox">
+    <h1>
+      The {{page.hdi4d-workshop-number}} NZ/Korea Workshop on HDI<sup>2</sup>4D
+      <br>
+    </h1>
+      <h2><big>{{page.hdi4d-workshop-month}} {{page.hdi4d-workshop-year}}</big></h2>
+      <h2><big>Human-Digital Content Interaction for Immersive 4D Home Entertainment</big></h2>
+  </div>
+  <div class="container text-center">
+    <ul class="list-inline logo-list">
+      <li><a href="http://victoria.ac.nz/">
+        <img src="images/VUW_logo.png" alt="Victoria University of Wellington">
+      </a></li>
+      <li><a href="http://www.hitlabnz.org/">
+        <img src="images/hitlab_logo.png" alt="Human Interface Technology Laboratory New Zealand">
+      </a></li>
+      <li><a href="http://www.ewha.ac.kr/mbs/ewhaen/index.jsp">
+        <img src="images/EWHA_logo_en.png" alt="EWHA Womans University">
+      </a></li>
+      <li><a href="http://en.hongik.ac.kr/">
+        <img src="images/HU_logo.png" alt="Hongik University">
+      </a></li>
+	  <li><a href="http://www.korea.edu/">
+        <img src="images/KU_logo_red.png" alt="Korea University">
+      </a></li>
+      <li><a href="http://www.mbie.govt.nz/">
+        <img src="images/MBIE_logo.png" alt="Ministry of Business, Innovation and Employment">
+      </a></li>
+      <li><a href="http://www.nrf.re.kr/nrf_eng_cms/">
+        <img src="images/NRF_logo.png" alt="National Research Foundation of Korea">
+      </a></li>
+    </ul>
+  </div>
+</div>
+
+<div class="container anchor">
+    {{ content }}
+</div>
+
+</hr>
+
+<footer class="container anchor footer">
+© {{page.hdi4d-workshop-host}} {{page.hdi4d-workshop-year}} — Contact: 
+    {{page.hdi4d-contact-primary}} - <a href="mailto:{{page.hdi4d-contact-primary-email}}"> {{page.hdi4d-contact-primary-email}}</a>
+    {{page.hdi4d-contact-secondary}} - <a href="mailto:{{page.hdi4d-contact-secondary-email}}"> {{page.hdi4d-contact-secondary-email}}</a>
+</footer>
