@@ -1,0 +1,28 @@
+project_leaders:
+    - {name: Taehyun Rhee, details: VUW }
+    - {name: Young J. Kim, details: EWU }
+co_leaders:
+    - {name: Mark Billinghurst, details: HITLab NZ }
+    - {name: Jun Park, details: Hongik University }
+key_researchers:
+    - {name: Gun Lee, details: HITLab NZ }
+    - {name: J.P. Lewis, details: 'VUW & Weta Digital' }
+    - {name: Gina Grimshaw, details: VUW }
+    - {name: Seongki Kim, details: EWU }
+advisors:
+    - {name: Alasdair Coull, details: Weta Digital }
+    - {name: Eugene d'Eon, details: 8i }
+    - {name: Miriam Ross, details: 'VUW School of English, Film, Theatre and Media Studies' }
+    - {name: Kevin Romond, details: 'VUW & Weta Digital' }
+funded_researchers:
+    - {name: Joonsuk Park, details: 'Post-doc, Hongik University' }
+funded_students:
+    - {name: Kieran Carnegie, details: 'PhD, VUW' }
+    - {name: Jaedong Lee, details: 'PhD, Korea University' }
+    - {name: Youngsun Kim, details: 'PhD, Korea University' }
+    - {name: Thomas Iorns, details: 'MSc, VUW' }
+    - {name: Joshua Chen, details: 'MSc, Hit Lab NZ' }
+    - {name: Kiran Nasim, details: 'MS, EWU' }
+    - {name: Benjamin Allen, details: 'MSc, VUW' }
+    - {name: Jin Kim, details: 'MS, Hongik University' }
+    - {name: Sangcheon Kang, details: 'MS, Hongik University' }
