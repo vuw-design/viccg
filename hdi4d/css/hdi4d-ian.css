@@ -1,0 +1,159 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#workshop3_jumbo {
+    background-image: url('../images/hero_bw.jpg');
+    width: 100%;
+    height: auto;
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron {
+    padding-bottom: 0px;
+}
+
+.jumbo-tint {
+    /*background-color: rgba(0,0,255,.9);*/
+    background: linear-gradient(rgba(0,100,255,.9) 50%, rgba(0,100,255,.5));
+}
+
+.anchor {
+    width: 100%;
+}
+
+.container {
+    padding: 0em 5em 0em 5em;
+    margin:0px;
+    width: 100%;
+}
+
+.topbox {
+    padding: 8em 10% 0em 10%;
+    padding-bottom: 10em;
+    color:white;
+    width: 100%;
+    text-align: left;
+}
+
+.topbox .text-container {
+    max-width: 450px;
+}
+
+.topbox .subtitle-lower {
+    /*padding: 0em 2em 0em 2em;*/
+    margin: 0em;
+    font-family: 'Source Sans Pro', sans-serif !important;
+    font-size: 2.5em;
+    font-style: italic;
+    font-weight: normal !important;
+    text-align: left;
+    line-height: 0.95em;
+}
+
+.topbox .subtitle-upper {
+    /*padding: 0em 2em 0em 2em;*/
+    margin: 0em 0em .3em 0em;
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 1.8em;
+    font-weight: 200 !important;
+    text-align: left;
+}
+
+.topbox hr {
+    opacity: 1;
+    height: 1px;
+    background-color: white;
+    margin-top:20px !important;
+    margin-bottom:20px !important;
+}
+
+.logo-list {
+    margin: auto;
+    padding-bottom: 5em;
+}
+
+.logo-list li {
+    padding: 10px;
+    text-align: center;
+}
+
+.vic-logo {
+    position: relative;
+    /*top: 8px;*/
+}
+
+.hitlab-logo {
+    position: relative;
+    top: -10px;
+}
+
+.container h1, h2, h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: normal;
+    letter-spacing: -.01em;
+}
+
+.container h1 {
+    border-bottom: thin solid rgba(0,0,0,.1);
+    padding-bottom: 0.25em;
+    margin-bottom: 0.25em !important;
+}
+
+.container p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.25em;
+    margin-bottom: 40px;
+}
+
+.container hr {
+    margin-top:10px;
+    margin-bottom:20px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 0em 20px 0em 20px;
+        margin:0px;
+        width: 100%;
+    }
+
+    .topbox {
+        padding: 10em 10% 8em 10%;
+        color:white;
+        width: 100%;
+        text-align: left;
+    }
+
+    .topbox .subtitle-lower {
+        font-size: 2em;
+    }
+
+    .topbox .subtitle-upper {
+        font-size: 1.2em;
+    }
+
+    #workshop3_jumbo {
+        padding:0px;
+    }
+
+    .logo-list li {
+        padding: 0px;
+    }
+
+    .logo-list img {
+        height:40px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        padding: 0em 20% 0em 20%;
+    }
+    
+    .topbox {
+        padding: 10em 20% 8em 20%;
+    }
+}
