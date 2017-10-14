@@ -17,7 +17,7 @@ body {
 
 .jumbo-tint {
     /*background-color: rgba(0,0,255,.9);*/
-    background: linear-gradient(rgba(0,85,200,.9) 50%, rgba(0,85,200,.5));
+    background: linear-gradient(rgba(0,100,210,.9) 50%, rgba(0,100,210,.5));
 }
 
 .anchor {
