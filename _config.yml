@@ -1,4 +1,5 @@
 # Do NOT edit these
 repository: vuw-design/viccg
+markdown: kramdown
 # Below this line can be edited
 hdi4d-current-workshop-name: Workshop Nov 2017
