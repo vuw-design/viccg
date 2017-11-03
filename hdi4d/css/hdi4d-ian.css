@@ -2,6 +2,11 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+img {
+    width:100%;
+    height:auto;
+}
+
 #workshop3_jumbo {
     background-image: url('../images/hero_bw.jpg');
     width: 100%;
