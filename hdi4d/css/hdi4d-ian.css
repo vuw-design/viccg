@@ -2,6 +2,12 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+h2 {
+    border-bottom: thin solid rgba(0,0,0,.1);
+    padding-bottom: 0.25em;
+    margin-bottom: 0.25em !important;
+}
+
 .body-img {
     width:100%;
     height:auto;
