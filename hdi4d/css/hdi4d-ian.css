@@ -3,7 +3,7 @@ body {
 }
 
 .body-img {
-    width:100%;
+    width:50%;
     height:auto;
 }
 
@@ -119,6 +119,10 @@ body {
 }
 
 @media (max-width: 768px) {
+    .body-img {
+        width:100%;
+    }
+    
     .container {
         padding: 0em 20px 0em 20px;
         margin:0px;
