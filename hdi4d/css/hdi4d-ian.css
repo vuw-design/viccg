@@ -101,7 +101,7 @@ h2 {
 .hitlab-logo {
     position: relative;
     top: -10px;
-    height: 65px;
+    height: 65px !important;
 }
 
 .container h1, h2, h3 {
@@ -166,7 +166,7 @@ h2 {
     }
     
     .hitlab-logo {
-    height: 60px;
+    height: 60px !important;
     }
 
 }
