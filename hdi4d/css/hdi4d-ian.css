@@ -64,6 +64,7 @@ h2 {
     font-weight: normal !important;
     text-align: left;
     line-height: 0.95em;
+    border-bottom: none !important;
 }
 
 .topbox .subtitle-upper {
@@ -73,6 +74,7 @@ h2 {
     font-size: 1.8em;
     font-weight: 200 !important;
     text-align: left;
+    border-bottom: none !important;
 }
 
 .topbox hr {
